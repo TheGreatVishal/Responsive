@@ -6,32 +6,26 @@
         font-size: 25px;
         line-height: 13px;
     }
-
     .navlist li a {
         font-size: 15px;
         align-items: center;
 
     }
-
     .logo {
         display: none;
     }
-
     .navbar {
         flex-direction: column;
         align-items: center;
         height: 158px;
         transition: all 0.5s ease-out;
     }
-
     .h-nav-resp {
         height: 40px;
     }
-
     .v-class-resp {
         opacity: 0;
     }
-
     .rightNav {
         flex-direction: column;
         width: 18%;
@@ -86,7 +80,7 @@
     }
     .ts {
         font-size: 11px;
-    line-height: 13px;
+        line-height: 13px;
     }
     .paras{
         width: 70%;
@@ -103,11 +97,9 @@
         align-items: center;
         justify-content: space-evenly;
         max-width: 100%;
-        /* margin: 14px 0px; */
         padding: 2px;
         color: white;
         background: #182f3c;
-        /* border: 2px solid red; */
     }
     .sec{
         background: #000;
@@ -122,11 +114,9 @@
         color: white;
         cursor: pointer;
     }
-
     .buttons {
         margin: 13px 0px;
     }
-
     #search {
         padding: 5px;
         font-size: 4px;
@@ -136,10 +126,6 @@
     .contact {
         background-color: #606d87;
         width: 449px;
-    }
-    .btn-sm {
-        padding: 2px 4px;
-        vertical-align: middle;
     }
     .text-center {
         font-size: 4vw;
@@ -163,7 +149,6 @@
         padding: 1px 4px;
         vertical-align: middle;
         position: relative;
-
+        left: 39%;
     }
-
 }
