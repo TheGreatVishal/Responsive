@@ -65,7 +65,7 @@
     border-radius: 9px;
 }
 
-.burger{
+.burger {
     display: none;
     right: 1%;
     cursor: pointer;
@@ -73,12 +73,13 @@
     top: 7px;
 }
 
-.line{
+.line {
     width: 27px;
     background-color: white;
     height: 3px;
     margin: 4px 3px;
 }
+
 /* .background {
     background: rgba(0, 0, 0, 0.7) url('/img/background.jpg');
     background-size: cover;
@@ -117,7 +118,7 @@
     border-radius: 150px;
     display: block;
     margin: auto;
-    
+
 }
 
 .text-big {
@@ -129,16 +130,17 @@
     font-weight: 100;
 }
 
-.tb{
+.tb {
     font-size: 2vw;
 }
 
 
-.ts{
+.ts {
     font-size: 1vw;
 }
+
 .btn {
-    padding:1vw 1vw;
+    padding: 1vw 1vw;
     margin: 7px 3px;
     border: 2px solid white;
     border-radius: 8px;
@@ -153,9 +155,11 @@
     position: relative;
     left: 1%;
 }
-.sec{
+
+.sec {
     background: #000;
 }
+
 .section {
     height: 24vw;
     display: flex;
@@ -183,13 +187,13 @@
     width: 70%;
 }
 
-.thumbnail  {
+.thumbnail {
     /* border: 2px solid red; */
     width: 30%;
-    
+
 }
 
-.thumbnail  img{
+.thumbnail img {
     width: 100%;
     border-radius: 32px;
 }
@@ -223,9 +227,10 @@
     left: 43%;
 }
 
-.background{
+.background {
     background: #000;
 }
+
 .text-footer {
     text-align: center;
     font-size: 2vw;
@@ -235,7 +240,12 @@
     color: white;
 }
 
-.hrr{
-    align:right;
-    
+.hrr {
+    align: right;
+
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
 }
