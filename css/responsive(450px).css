@@ -1,0 +1,169 @@
+@media (max-width: 450px) {
+    .navlist {
+        flex-direction: column;
+        align-items: center;
+        /* border: 2px solid red; */
+        font-size: 25px;
+        line-height: 13px;
+    }
+
+    .navlist li a {
+        font-size: 15px;
+        align-items: center;
+
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        height: 158px;
+        transition: all 0.5s ease-out;
+    }
+
+    .h-nav-resp {
+        height: 40px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+
+    .rightNav {
+        flex-direction: column;
+        width: 18%;
+        align-items: center;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .burger {
+        display: block;
+        right: 2%;
+        cursor: pointer;
+        position: absolute;
+        top: 7px;
+    }
+
+    .line {
+        width: 27px;
+        background-color: white;
+        height: 3px;
+        margin: 4px 3px;
+    }
+
+    .background {
+        width: 449px;
+    }
+
+
+    .secondHalf img {
+        width: 141px;
+        border-radius: 14px;
+    }
+
+    .text-big {
+        font-size: 37px;
+    }
+
+    .text-small {
+        font-size: 14px;
+        font-weight: 100;
+    }
+
+    .background firstSection {
+        height: 100px;
+    }
+
+    .firstHalf {
+        height: 378px;
+    }
+    .tb {
+        font-size: 19px;
+    }
+    .ts {
+        font-size: 13px;
+        line-height: 9px;
+    }
+    .paras{
+        width: 70%;
+    }
+    .thumbnail{
+        width: 30%;
+    }
+    .sectionTag {
+        padding: 6px 0px;
+    }
+    .section {
+        height: 41vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 100%;
+        /* margin: 14px 0px; */
+        padding: 2px;
+        color: white;
+        background: #182f3c;
+        /* border: 2px solid red; */
+    }
+    .sec{
+        background: #000;
+        width: 449px;
+    }
+    .btn {
+        padding: 1vw 1vw;
+        margin: 4px -2px;
+        border: 2px solid white;
+        border-radius: 4px;
+        background: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    .buttons {
+        margin: 13px 0px;
+    }
+
+    #search {
+        padding: 5px;
+        font-size: 4px;
+        border: 2px solid grey;
+        border-radius: 3px;
+    }
+    .contact {
+        background-color: #606d87;
+        width: 449px;
+    }
+    .btn-sm {
+        padding: 2px 4px;
+        vertical-align: middle;
+    }
+    .text-center {
+        font-size: 4vw;
+    }
+    .form-input {
+        margin: 3px 0px;
+        width: 100%;
+        font-size: 2vw;
+        border: 2px solid grey;
+        border-radius: 7px;
+    }
+    .text-footer {
+        text-align: center;
+        font-size: 3vw;
+        padding: 2vw 0px;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    .btn-sm {
+        padding: 1px 4px;
+        vertical-align: middle;
+        position: relative;
+        left: 29vw;
+    }
+
+}
