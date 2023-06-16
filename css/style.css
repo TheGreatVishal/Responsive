@@ -150,17 +150,23 @@
 .btn-sm {
     padding: 0.2vw 0.9vw;
     vertical-align: middle;
+    position: relative;
+    left: 1%;
 }
-
+.sec{
+    background: #000;
+}
 .section {
     height: 24vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    max-width: 80%;
+    max-width: 100%;
     margin: auto;
     padding: 3px;
     font-size: 1.2vw;
+    color: white;
+    background: #182f3c;
     /* border: 2px solid red; */
 }
 
@@ -174,11 +180,12 @@
 
 .paras {
     padding: 0px 4vw;
+    width: 70%;
 }
 
 .thumbnail  {
     /* border: 2px solid red; */
-    width: 154vw;
+    width: 30%;
     
 }
 
@@ -188,9 +195,7 @@
 }
 
 .contact {
-    background-color: #f6f5f4;
-    /* height: 38vw; */
-    /* border: 2px solid green; */
+    background-color: #606d87;
 }
 
 .text-center {
@@ -214,6 +219,8 @@
 .btn-dark {
     color: black;
     border: 2px solid grey;
+    position: relative;
+    left: 43%;
 }
 
 .background{
@@ -222,9 +229,13 @@
 .text-footer {
     text-align: center;
     font-size: 2vw;
-    padding: 1vw 0px;
+    padding: 7px 0px;
     display: flex;
     justify-content: center;
     color: white;
 }
 
+.hrr{
+    align:right;
+    
+}
