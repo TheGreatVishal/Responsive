@@ -68,4 +68,11 @@
     .contact {
         background-color: #606d87;   
     }
+    ::placeholder {
+        font-size: 15px;
+    }
+
+    .in{
+        height: 15px;
+    }
 }
