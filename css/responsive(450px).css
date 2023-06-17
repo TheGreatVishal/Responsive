@@ -159,5 +159,13 @@
     .btn-sm {
         padding: 1px 4px;
         vertical-align: middle;
+        
+    }
+
+    ::placeholder {
+        font-size: 13px;
+    }
+    .in{
+        height: 13px;
     }
 }
