@@ -221,7 +221,7 @@
 }
 
 .btn-dark {
-    color: black;
+    color: white;
     border: 2px solid grey;
     position: relative;
     left: 43%;
@@ -248,4 +248,10 @@
 ::placeholder {
     color: black;
     opacity: 1;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.in{
+    height: 25px;
 }
