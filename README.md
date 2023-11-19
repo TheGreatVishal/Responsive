@@ -1,1 +1,1 @@
-# resonsive
+# It is a basic responsive website 
